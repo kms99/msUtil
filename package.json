@@ -1,8 +1,11 @@
 {
   "name": "ms-react-util",
-  "version": "1.0.0",
-  "description": "react util components",
-  "main": "index.js",
+  "version": "1.0.2",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --mode production"
